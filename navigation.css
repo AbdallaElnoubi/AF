@@ -1,0 +1,53 @@
+@charset"utf-8";
+
+.center{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.navbg
+{
+	margin:0;
+	padding:0;
+	font:14px Arial;
+	color:#bcecff;
+	padding-left:
+	30px;
+	direction:RTL;
+}
+
+.navbg li
+{
+	display:inline;
+}
+
+.navbg li a
+{
+	float:left;
+	color:#bcecff;
+	padding:10px 11px 10px 11px;
+	text-decoration:none;
+	background:url(images/sep.gif) no-repeat bottom left;
+}
+
+.navbg li a:visited
+{
+	color:#bcecff;
+}
+
+.navbg li a:hover,.navbg li .current
+{
+	color:#bcecff;
+	background:url(images/navbg-rollover.gif) top left repeat-x;*background:url(images/navbg-rollover.gif) bottom left repeat-x;
+}
+
+.leftblock {
+	width: 195px;
+	float: left;
+	height: 210px;
+	padding: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}

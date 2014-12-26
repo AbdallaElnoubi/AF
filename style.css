@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("navigation.css");
+@import url("newsscroll.css");
+
+body{margin:0px; font:12px Arial, Helvetica, sans-serif; color:#333; text-align:justify; background:url(images/background.gif) repeat-x top; color:#4e4e4e; line-height:18px;}
+#wrapper{width:990px; margin:auto; clear:both;}
+h2.blue{font:23px Georgia, "Times New Roman", Times, serif, Arial; color:#16a1da; margin:0px; padding:0px;}
+h2.smallhead{font:18px Georgia, "Times New Roman", Times, serif; color:#09478d; margin:5px 5px 5px 0px; padding:0px;}
+h2.innerhead{font:16px "Times New Roman", Times, serif; color:#0177c5; margin:0px; padding:0px;}
+
+strong{font-size:13px;}
+b.head{font-size:13px; color:#093D79;}
+.heading{background:url(images/heading-bg.jpg) no-repeat left bottom; line-height:27px; text-transform:uppercase; font-weight:bold; font-size:12px; padding-left:15px; color:#00326b; font-family:Georgia, vTahoma, Geneva, sans-serif; margin:10px 0px;}
+.subhead{color:#1f72d0; font-weight:bold; padding-bottom:4px;}
+.subhead a{color:#1f72d0; text-decoration:none;}
+.subhead a:hover{color:#1f72d0; text-decoration:underline;}
+p.largefont{font-size:14px; font-weight:bold;}
+.contentheight{height:450px;}
+
+.clear{clear:both; font-size:2px; height:5px;}
+
+/*----------------------------------------------------------------------------------------*/
+
+.toplink{width:18%; float:right; background:url(images/toplink-bg.gif) repeat-x; line-height:21px; margin-top:10px;}
+.toplink-diag{background:url(images/toplink-diag.gif) no-repeat; height:21px; font:11px Arial, Helvetica, sans-serif; color:#FFF; text-align:center;}
+.toplink-diag a{color:#FFF; padding:0px 3px; text-decoration:none;}
+.toplink-diag a:hover{color:#FFF; text-decoration:underline;}
+
+/*----------------------------------------------------------------------------------------*/
+
+#logobg{height:112px; padding-top:10px;}
+.logo{width:40%; float:left; padding-left:30px;}
+.tagline{width:40%; float:right; padding-top:35px;}
+.logo img{height:110px; width :150px;}
+
+/*----------------------------------------------------------------------------------------*/
+
+.headerbg{clear:both; margin:0px 0px 0px 0px; position:relative; margin-bottom:8px; background:url(images/headerslide.jpg) repeat-x top #0354B2; height:246px;}
+
+
+/*----------------------------------------------------------------------------------------*/
+
+.leftblock{width:195px; float:left; height:210px; padding:5px;}
+.centerblock{width:550px; margin:0px 15px; float:left;}
+.content{background:url(images/centerbg.jpg) repeat-x top #eff5fb; border:1px solid #c9dcef; border-top:none; padding:5px; margin-bottom:15px;}
+
+.rightblock{width:190px; float:right; padding:5px; text-align:left;}
+.rightblock img{padding-left:5px;}
+
+.rightblock ul{margin:0px; padding:0px;}
+.rightblock li{list-style-type:none; padding:4px 0px 0px 18px;}
+.achiev-head{background:url(images/bullet.gif) no-repeat left top; font-weight:bold;}
+.dotsep{background:url(images/dot-sep.gif) repeat-x bottom; line-height:6px;}
+
+
+.hblockone{width:260px; float:left; margin:0px 11px 0px 6px;}
+.hlocktwo{width:260px; float:left; margin:0px 0px 0px 0px;}
+.hblockbor{border:1px solid #b3c5d5; background:url(images/center-block-bg.jpg) repeat-x bottom #fdfeff;}
+.hblock-pad{padding:6px 6px 0px 6px; text-align:left; height:105px;}
+
+/*-----------------About us-----------------------------------------------------------------------*/
+
+.contentblock{width:760px; float:left; margin-left:15px;}
+.contentblock a{color:#333; text-decoration:underline;}
+.contentblock a:hover{color:#333; text-decoration:none;}
+.contentblock video {height:250 px; width:350px }
+.contentblock li{padding:3px 0px;}
+.contentsep{background:url(images/contentsep.gif) repeat-x top; clear:both; font-size:2px; line-height:8px;}
+
+/*-----------------Fencing-----------------------------------------------------------------------*/
+
+.blockone{width:240px; float:left; background:url(images/contentsep.gif) repeat-y right; margin-right:5px; padding:5px; height:410px;}
+.blocktwo{width:240px; float:left; padding:5px; height:410px;}
+
+/*-----------------Fencing for Kids-----------------------------------------------------------------------*/
+
+.classschedule ul{margin:0px; padding:0px; list-style-type:none;}
+.classschedule li{background-color:#d9e8f8; padding:3px 20px; margin:0px 1px; border:1px solid #a3cbf4; display:inline;}
+
+/*-----------------Classes-----------------------------------------------------------------------*/
+
+.partone{width:240px; float:left; background:url(images/contentsep.gif) repeat-y right; margin-right:5px; padding:5px; height:125px;}
+.parttwo{width:240px; float:left; padding:5px; height:125px;}
+.classfee{background-color:#cde1f6; font-weight:bold; width:240px; float:left; padding:2px 0px 1px 5px; margin-right:6px;}
+
+/*-----------------Programs-----------------------------------------------------------------------*/
+.prog ul{list-style-type:none; margin:5px; padding:5px; font-size:14px; font-weight:bold;}
+.prog li{background:url(images/bullet.gif) no-repeat; padding-left:18px;}
+.prog li a{text-decoration:underline; color:#09478d;}
+.prog li a:hover{text-decoration:none; color:#09478d;}
+
+/*-----------------Tournament-----------------------------------------------------------------------*/
+
+#main {display: table; width:600px;}
+#tr   {display: table-row; clear:both; width:600px;}
+#tr h2{font-size:15px; margin:0px; padding:5px 0px;}
+#tdthree {display: table-cell; border:1px solid #96d0e6; padding:5px; float:left; width:188px;}
+#tdtwo {display: table-cell; border:1px solid #96d0e6; padding:5px; float:left; width:288px; height:30px;}
+
+.tdbgcolor{background-color:#d5f1fc; color:#165974; font-weight:bold;}
+.tdheight{display: table-cell; border:1px solid #96d0e6; padding:5px; float:left; width:288px; height:45px;}
+.tablehead{font:20px "Times New Roman", Times, serif Arial; text-align:center; color:#09478d; line-height:28px;}
+
+/*-----------------Parent's Guide-----------------------------------------------------------------------*/
+
+.dhtmlgoodies_question{	
+	font-size:12px; background-color:#deedfd; width:480px; padding-left:6px; line-height:22px; border-bottom:2px solid #ffffff;
+	overflow:hidden; cursor:pointer;
+}
+.dhtmlgoodies_answer{width:450px; visibility:visible; height:0px; overflow:hidden; position:relative; padding-left:15px;
+}
+.dhtmlgoodies_answer_content{
+	padding:1px; position:relative; font:11px Tahoma, Geneva, sans-serif; line-height:18px;
+}
+
+
+/*-----------------Sitemap-----------------------------------------------------------------------*/
+
+.sitemap ul{margin:0px; padding:0px 0px 0px 25px; font-weight:bold;}
+.sitemap li{background:url(images/pointer.gif) no-repeat left top; list-style-type:none;border-left:1px solid #333; padding-left:20px;}
+
+/*-----------------Footer-----------------------------------------------------------------------*/
+
+.footer{background:url(images/footer-bg.gif) repeat-x #e7e7e7 bottom; text-align:center; font-size:11px; clear:both; padding:10px 0px; border-top:1px solid #b9b9b9;}
+.footer a{text-decoration:underline; color:#4e4e4e;}
+.footer a:hover{text-decoration:none; color:#4e4e4e;}
